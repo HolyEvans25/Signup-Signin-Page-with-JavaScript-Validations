@@ -1,0 +1,22 @@
+body {
+    background: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.signin-container {
+    padding: 20px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.toggle-pass {
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #ff760d;
+    user-select: none;
+}

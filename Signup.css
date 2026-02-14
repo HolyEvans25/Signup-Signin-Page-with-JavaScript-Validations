@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+/* Section full screen */
+.signup-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    /* little top bottom spacing */
+}
+
+/* Small centered card */
+.signup-card {
+    width: 100%;
+    max-width: 580px;
+    /* 👈 smaller and responsive */
+    padding: 1px 30px !important;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Reduce height feel */
+.signup-card .mb-3 {
+    margin-bottom: 10px !important;
+}
+
+.signup-card .form-control {
+    height: 38px;
+    font-size: 14px;
+}
+
+/* Input Focus */
+.signup-card .form-control:focus {
+    border-color: #00b7ff;
+    box-shadow: 4px rgba(220, 214, 207, 0.953);
+}
+
+/* Button */
+.signup-card .btn-primary {
+    height: 42px;
+    border-radius: 8px;
+    background-color: #ff8800;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+/* Hover */
+.signup-card .btn-primary:hover {
+    background-color: #ff8800;
+}
+
+/* Toggle Password */
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 34px;
+    font-size: 13px;
+    color: #ff8800;
+    cursor: pointer;
+}
+
+/* Bottom Link */
+.signup-card a {
+    color: #ff8800;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.signup-card a:hover {
+    text-decoration: underline;
+}
+
+#successMessage {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
