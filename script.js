@@ -143,7 +143,7 @@ if (form) {
         alert("Your Account Created Successfully! Redirecting.....");
 
         // Redirect to SignIn.html
-        window.location.href = "SignIn.html";
+        window.location.href = "signin.html";
     });
 
     // ===== Helper functions =====
@@ -214,7 +214,7 @@ if (signinForm) {
         if (user) {
             alert('Login Successful!'); // Success alert
             // Redirect to home page
-            window.location.href = 'index travelapp.html';
+            window.location.href = 'index.html';
         } else {
             alert('Invalid Email or Password');
             document.getElementById('password').value = ''; // Clear password
